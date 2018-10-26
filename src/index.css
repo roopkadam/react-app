@@ -1,14 +1,81 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+body{
+    /*background: #E4E8EB;*/
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+    margin: 0;
+  }
+  /*  ------------------------------------------------------
+    ribbon section
+    ------------------------------------------------------*/
+.ribbon-wrap{
+    top: 0;
+    background: #131313;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index:1;
+  }
+  .ribbon-wrap p{
+     font-size: 16px;
+    margin: 0;
+    color: white;
+    display: inline-block;
+  }
+  .cta{
+      margin-left: 15px;
+      padding: 5px 20px;
+      font-size: 14px;
+      color: #fff;
+      margin-top: -3px;
+      border: 1px solid #fff;
+      font-weight: 400;
+      box-shadow: none;
+      border-radius: 4px;
+      text-transform: uppercase;
+      display: inline-block;
+    }
+    .cta:hover{
+      text-decoration: none;
+      color: white;
+    }
+    .icon-cancel{
+      position: absolute;
+      right: 15px;
+      top: 20px;
+      font-size: 15px;
+      color: rgba(255,255,255,.5);
+      cursor: pointer;
+		} 
+		
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+		/*  ------------------------------------------------------
+ Communication section
+  ------------------------------------------------------*/
+  .communication_setion{
+    background-color: #ffffff;
+    padding-top: 30px
+  }
+  .communication_sec_content{
+    margin-top: 30px;
+  }
+  .communication_sec_content h1{
+    font-weight: 300 !important;
+    color: #555;
+    margin-bottom: 35px;
+  }
+  .communication_sec_description{
+    padding: 20px ;
+  }
+ .communication_sec_description h5{
+    color: #555;
+    padding: 20px 0;
+    font-weight: 600!important;
+    font-family: Open Sans,Arial,sans-serif;
+  }
+  .communication_sec_description p{
+    color: #555;
+    line-height: 1.7em;
+    font-size: 16px;
+  }
